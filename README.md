@@ -36,7 +36,7 @@ SmartSocks 是一个服务端和客户端自动协商最快传输协议的工具
 
 #### 下载依赖
 
-`curl -sL https://raw.githubusercontent.com/waylybaye/SmartSocks/master/install_client.sh | bash`
+`curl -sL https://raw.githubusercontent.com/fred61chou/SmartSocks/master/install_client.sh | bash`
 
 #### 使用方法
 
