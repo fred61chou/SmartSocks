@@ -1,4 +1,4 @@
-V2RAY_VER="2.33.1"
+V2RAY_VER="4.7.3"
 DIRECTORY="smartsocks"
 
 case "$(uname -s)" in
