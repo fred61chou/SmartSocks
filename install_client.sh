@@ -27,10 +27,6 @@ if ! [ -f v2ray ]; then
   echo "[SmartSocks] Downloading V2Ray ${V2RAY_VER} ..."
   curl -o v2ray.zip -L https://github.com/v2ray/v2ray-core/releases/download/v${V2RAY_VER}/v2ray-${V2RAY_PLATFORM}.zip || exit 1
   unzip v2ray.zip -d tmp
-  
-  https://github.com/v2ray/v2ray-core/releases/download/v4.7.3/v2ray-macos.zip
-  
-  
   mv tmp/v2ray-v${V2RAY_VER}-${V2RAY_PLATFORM}/v2ray v2ray
   chmod +x v2ray
   rm -rf tmp
